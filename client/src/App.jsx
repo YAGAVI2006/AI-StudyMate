@@ -15,6 +15,7 @@ import SubjectsPage from './pages/SubjectsPage';
 import SessionsPage from './pages/SessionsPage';
 import GoalsPage from './pages/GoalsPage';
 import Profile from './pages/Profile';
+import AIAssistantPage from './pages/AIAssistantPage';
 import AIPlaceholderPage from './pages/AIPlaceholderPage';
 import NotFound from './pages/NotFound';
 
@@ -101,12 +102,12 @@ function App() {
               }
             />
 
-            {/* Phase 3 Ready AI Tool Placeholders */}
+            {/* Phase 3 AI Study Assistant */}
             <Route
               path="/ai-assistant"
               element={
                 <ProtectedRoute>
-                  <AIPlaceholderPage featureId="ai-assistant" />
+                  <AIAssistantPage />
                 </ProtectedRoute>
               }
             />

@@ -7,6 +7,7 @@ import subjectRoutes from './routes/subjectRoutes.js';
 import sessionRoutes from './routes/sessionRoutes.js';
 import goalRoutes from './routes/goalRoutes.js';
 import dashboardRoutes from './routes/dashboardRoutes.js';
+import aiRoutes from './routes/aiRoutes.js';
 import { getRecentActivity } from './controllers/dashboardController.js';
 import { protect } from './middleware/authMiddleware.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
@@ -33,6 +34,7 @@ app.use('/api/subjects', subjectRoutes);
 app.use('/api/sessions', sessionRoutes);
 app.use('/api/goals', goalRoutes);
 app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/ai', aiRoutes);
 app.get('/api/recent-activity', protect, getRecentActivity);
 
 // Error Handling Middlewares
