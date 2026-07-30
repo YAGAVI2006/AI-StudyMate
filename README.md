@@ -5,7 +5,7 @@ AI StudyMate is a modern educational web application built with **React (Vite)**
 ## 🚀 Features
 
 - **JWT Authentication**: Secure registration, login, and protected routes.
-- **Student Dashboard**: Real-time study metrics, today's goals, recent subjects, study timer, and activity timeline.
+- **Student Dashboard**: Real-time study metrics, today's goals, recent subjects (Java, DSA, SQL), study timer, progress overview, and activity timeline.
 - **Profile Management**: Customizable student profiles with course, academic year, and study goal management.
 - **Modern UI**: Styled with Tailwind CSS `#2563EB` primary theme, glassmorphism cards, and micro-animations.
 
