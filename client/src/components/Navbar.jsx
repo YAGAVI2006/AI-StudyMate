@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { BookOpen, User, LogOut, LayoutDashboard, Menu, X, Sparkles } from 'lucide-react';
+import { BookOpen, User, LogOut, LayoutDashboard, Menu, X, Sparkles, Moon, Sun } from 'lucide-react';
 
 const Navbar = () => {
   const { user, isAuthenticated, logout } = useAuth();
