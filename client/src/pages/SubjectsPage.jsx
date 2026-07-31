@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api/axios';
-import { BookOpen, Plus, Edit2, Trash2, CheckCircle2, Layers } from 'lucide-react';
+import { BookOpen, Plus, Edit2, Trash2, CheckCircle2, Layers, Search } from 'lucide-react';
 import Loader from '../components/Loader';
 import Modal from '../components/Modal';
 import Button from '../components/Button';
